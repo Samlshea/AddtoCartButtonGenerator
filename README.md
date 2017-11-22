@@ -1,6 +1,7 @@
 # Project Name
 
-Add to Cart Button Generator
+
+Add to Cart Button Generator :)
 
 
 ## About
