@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="main.css">
+	<title>Add to Cart Button Generator</title>
+</head>
+ <body>
+	<div class="header">
+		<img src="shopify_logo_white.png">
+		<h1> Add to Cart Button Generator</h1>
+    </div>
+   <div class="page-wrap">
+    <div class="flex">
+   <div class="modal">
+		<div class="modal-css modal-content">
+			<span class="close">&times;</span>
+			<h3> Simply copy the code below, and paste at the very bottom of your theme.scss file. </h3>
+			<p>Please note, the below code will only affect the <em>colors</em> and <em>size</em> of your add to cart button, on desktop. It will not affect the button on mobile devices.</p>
+			 <input type="text" autofocus="autofocus" id="copyCss"></input>
+			 
+			 		<button class="copy btn">Copy CSS</button>
+
+		</div>
+	</div>
+	<div class="button-wrapper">
+	<button id="demo-button">Add to Cart</button>
+    </div>
+<div class="form-wrapper">
+ <form>
+	<div class="dropdown">
+		<button type="button" class="slider-btn btn">+ Select Theme</button>
+		<div class="settings-menu">
+		<select name="theme" id="themeSelect">
+		  <option value="narrative">Narrative</option>
+		  <option value="venture">Venture</option>
+		  <option value="debut">Debut</option>
+		  <option value="simple">Simple</option>
+		  <option value="supply">Supply</option>
+		  <option value="jumpstart">Jumpstart</option>
+		  <option value="pop">Pop</option>
+		  <option value="brooklyn">Brooklyn</option>
+		  <option value="boundless">Boundless</option>
+		  <option value="minimal">Minimal</option>
+		</select>
+	</div>
+	</div>
+
+	<div class="dropdown">
+		<button type="button" class="slider-btn btn">+ Select Colors</button>
+		<div class="settings-menu">
+			<p>
+		  <input type="color" name="btnColor" value="#008000" id="colorPicker">
+		  <label for="colorPicker">Button Color</label>
+		</p>
+		<p>
+		  <input type="color" name="btnTextColor" value="#008000" id="colorPicker2">
+		  <label for="colorPicke2">Text Color</label>
+		</p>
+	    </div>
+	</div>
+
+	<div class="dropdown">
+        <button type="button" class="slider-btn btn">+ Select Size</button>
+       <div class="settings-menu">
+		  <div class="btn-select">
+			<input class="btn-small" type="button" value="150px">
+			<input class="btn-small" type="button" value="250px">
+			<input class="btn-small" type="button" value="350px">
+			<input class="btn-small" type="button" value="450px">
+		  </div>
+		</div>
+	</div>
+	
+	
+
+
+
+  </form>
+
+</div>
+</div>
+<div class="generate">
+  <button class="generate-btn">Generate Button CSS</button>
+</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="app.js"></script>
+ </body>
+</html>
